@@ -85,6 +85,20 @@ public class ParentController {
 	}
 	
 	
+	@RequestMapping(path = "/grades/{subjectId}", method = RequestMethod.GET) 
+	public ResponseEntity<?> getGradeCardsForSubject(@PathVariable Integer subjectId) {
+		
+		ParentEntity user = (ParentEntity) getParent().getBody();
+		
+		logger.info(userServiceImpl.getLoggedInUsername() + " : viewed children's grades.");
+		
+		return new ResponseEntity<>(user.getStudents().stream()
+				.flatMap(s -> s.getGradeCards().stream())
+				.filter(g -> g.getLecture().getSubject().getId() == subjectId)
+				.collect(Collectors.toList()), HttpStatus.OK);
+	}
+	
+	
 	// =-=-=-= PUT =-=-=-=
 	
 	

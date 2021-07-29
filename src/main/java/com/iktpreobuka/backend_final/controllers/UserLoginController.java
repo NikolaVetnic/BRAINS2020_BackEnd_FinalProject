@@ -73,7 +73,7 @@ public class UserLoginController {
 			}
 		}
 		
-		return new ResponseEntity<>("Email and password do not match", HttpStatus.UNAUTHORIZED);
+		return new ResponseEntity<>("Username and password do not match", HttpStatus.UNAUTHORIZED);
 	}
 	
 	

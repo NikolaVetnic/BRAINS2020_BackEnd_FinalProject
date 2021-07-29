@@ -3539,3 +3539,157 @@ Using generated security password: 5b781397-7345-4198-963d-6fcf3f48854a
 2021-07-14 08:31:23.985  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s717ms), soft-evicting connections from pool.
 2021-07-14 10:27:52.386  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h55m58s399ms).
 2021-07-14 11:26:36.815  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=52m44s382ms).
+2021-07-14 13:27:05.997  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=39m25s78ms).
+2021-07-14 17:25:01.214  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3h52m54s582ms).
+2021-07-14 17:27:10.397  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m39s505ms).
+2021-07-14 20:56:35.052  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=53s529ms).
+2021-07-15 07:15:52.210  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h19m17s159ms).
+2021-07-15 08:46:04.309  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=11m11s691ms).
+2021-07-15 14:21:24.871  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h34m50s386ms).
+2021-07-15 21:24:39.608  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h2m44s729ms).
+2021-07-15 21:34:22.228  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=6m42s605ms).
+2021-07-16 05:00:51.828  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h25m29s561ms).
+2021-07-17 14:58:02.346  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d9h57m10s518ms).
+2021-07-17 14:58:29.229  WARN 38943 --- [HikariPool-1 housekeeper] c.z.h.p.HikariPool                       : HikariPool-1 - Retrograde clock change detected (housekeeper delta=26s882ms), soft-evicting connections from pool.
+2021-07-17 17:59:58.761  INFO 38943 --- [RMI TCP Connection(692)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-17 17:59:58.821  INFO 38943 --- [RMI TCP Connection(692)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-17 17:59:58.829  INFO 38943 --- [RMI TCP Connection(692)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-07-17 17:59:58.838  INFO 38943 --- [RMI TCP Connection(692)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-07-29 08:34:53.437  INFO 800 --- [main] c.i.b.BackendFinalApplication            : Starting BackendFinalApplication using Java 1.8.0_231 on Nikolas-MacBook-Pro.local with PID 800 (/Users/nikolavetnic/Library/Mobile Documents/com~apple~CloudDocs/Documents/SpringWorkspace/backend_final/target/classes started by nikolavetnic in /Users/nikolavetnic/Library/Mobile Documents/com~apple~CloudDocs/Documents/SpringWorkspace/backend_final)
+2021-07-29 08:34:53.451  INFO 800 --- [main] c.i.b.BackendFinalApplication            : No active profile set, falling back to default profiles: default
+2021-07-29 08:34:54.408  INFO 800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-29 08:34:54.524  INFO 800 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 10 JPA repository interfaces.
+2021-07-29 08:34:55.032  INFO 800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7c1c5936' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-29 08:34:55.102  INFO 800 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-29 08:34:55.519  INFO 800 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-07-29 08:34:55.534  INFO 800 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-07-29 08:34:55.534  INFO 800 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-29 08:34:55.635  INFO 800 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-07-29 08:34:55.636  INFO 800 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2087 ms
+2021-07-29 08:34:56.196  INFO 800 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-07-29 08:34:56.728  INFO 800 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-07-29 08:34:58.224  INFO 800 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 08:34:58.284  WARN 800 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-29 08:34:59.291  INFO 800 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 62caf0b7-665a-4610-9d31-5e8410fd04c4
+
+2021-07-29 08:34:59.618  INFO 800 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6df31abf, org.springframework.security.web.context.SecurityContextPersistenceFilter@35ff072c, org.springframework.security.web.header.HeaderWriterFilter@3c3cd7a5, org.springframework.web.filter.CorsFilter@5a57cf90, org.springframework.security.web.authentication.logout.LogoutFilter@351e86b2, com.iktpreobuka.backend_final.config.JWTAuthorizationFilter@4d16975b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@63880be9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@b8142f4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@425f94d7, org.springframework.security.web.session.SessionManagementFilter@39ead1b7, org.springframework.security.web.access.ExceptionTranslationFilter@d3d5094, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7535f28]
+2021-07-29 08:34:59.921  INFO 800 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-29 08:34:59.933  INFO 800 --- [main] c.i.b.BackendFinalApplication            : Started BackendFinalApplication in 7.094 seconds (JVM running for 8.44)
+2021-07-29 08:35:54.390  INFO 800 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-29 08:35:54.390  INFO 800 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-07-29 08:35:54.392  INFO 800 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-07-29 08:35:54.870  INFO 800 --- [http-nio-8080-exec-1] c.i.b.c.UserLoginController              : 1 [ADMIN] admin : JWTToken granted.
+2021-07-29 08:35:54.871  INFO 800 --- [http-nio-8080-exec-1] c.i.b.c.UserLoginController              : admin : logged in.
+2021-07-29 08:36:30.809  INFO 800 --- [http-nio-8080-exec-3] c.i.b.c.ParentController                 : Optional[admin] : updated parent milan.milic
+2021-07-29 08:37:02.479  INFO 800 --- [http-nio-8080-exec-4] c.i.b.c.LectureController                : Lecture #6 : student bojan.bojanic graded 4
+2021-07-29 08:37:09.428  INFO 800 --- [http-nio-8080-exec-4] c.i.b.c.LectureController                : Lecture #6 : parent notified.
+2021-07-29 08:45:59.135  WARN 800 --- [http-nio-8080-exec-8] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:46:18.606  WARN 800 --- [http-nio-8080-exec-10] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:47:33.784  WARN 800 --- [http-nio-8080-exec-3] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:47:34.925  WARN 800 --- [http-nio-8080-exec-4] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:47:35.823  WARN 800 --- [http-nio-8080-exec-5] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:47:49.258  WARN 800 --- [http-nio-8080-exec-7] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:48:38.836  WARN 800 --- [http-nio-8080-exec-8] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:49:01.450  INFO 800 --- [RMI TCP Connection(19)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-29 08:49:01.479  INFO 800 --- [RMI TCP Connection(19)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 08:49:01.481  INFO 800 --- [RMI TCP Connection(19)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-07-29 08:49:01.488  INFO 800 --- [RMI TCP Connection(19)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-07-29 08:49:05.850  INFO 1229 --- [main] c.i.b.BackendFinalApplication            : Starting BackendFinalApplication using Java 1.8.0_231 on Nikolas-MacBook-Pro.local with PID 1229 (/Users/nikolavetnic/Library/Mobile Documents/com~apple~CloudDocs/Documents/SpringWorkspace/backend_final/target/classes started by nikolavetnic in /Users/nikolavetnic/Library/Mobile Documents/com~apple~CloudDocs/Documents/SpringWorkspace/backend_final)
+2021-07-29 08:49:05.861  INFO 1229 --- [main] c.i.b.BackendFinalApplication            : No active profile set, falling back to default profiles: default
+2021-07-29 08:49:06.699  INFO 1229 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-29 08:49:06.796  INFO 1229 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 10 JPA repository interfaces.
+2021-07-29 08:49:07.234  INFO 1229 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@ce9b9a9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-29 08:49:07.247  INFO 1229 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-29 08:49:07.614  INFO 1229 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-07-29 08:49:07.624  INFO 1229 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-07-29 08:49:07.625  INFO 1229 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-29 08:49:07.710  INFO 1229 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-07-29 08:49:07.711  INFO 1229 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1757 ms
+2021-07-29 08:49:08.230  INFO 1229 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-07-29 08:49:08.670  INFO 1229 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-07-29 08:49:09.879  INFO 1229 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 08:49:10.067  WARN 1229 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-29 08:49:10.716  INFO 1229 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7e5fd406-3521-4209-82d1-398e48a7f5a0
+
+2021-07-29 08:49:11.010  INFO 1229 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f3a6091, org.springframework.security.web.context.SecurityContextPersistenceFilter@27ec74a3, org.springframework.security.web.header.HeaderWriterFilter@13714753, org.springframework.web.filter.CorsFilter@5b4d9bda, org.springframework.security.web.authentication.logout.LogoutFilter@6fa7ce4, com.iktpreobuka.backend_final.config.JWTAuthorizationFilter@467a2584, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c0004b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55e5415d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@121dce2, org.springframework.security.web.session.SessionManagementFilter@7619fbe7, org.springframework.security.web.access.ExceptionTranslationFilter@54bc3bcf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@464d5365]
+2021-07-29 08:49:11.269  INFO 1229 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-29 08:49:11.279  INFO 1229 --- [main] c.i.b.BackendFinalApplication            : Started BackendFinalApplication in 5.975 seconds (JVM running for 6.94)
+2021-07-29 08:49:18.154  INFO 1229 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-29 08:49:18.155  INFO 1229 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-07-29 08:49:18.156  INFO 1229 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-07-29 08:49:18.421  WARN 1229 --- [http-nio-8080-exec-1] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:49:26.723  INFO 1229 --- [http-nio-8080-exec-3] c.i.b.c.UserLoginController              : 1 [ADMIN] admin : JWTToken granted.
+2021-07-29 08:49:26.723  INFO 1229 --- [http-nio-8080-exec-3] c.i.b.c.UserLoginController              : admin : logged in.
+2021-07-29 08:49:30.577  WARN 1229 --- [http-nio-8080-exec-4] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:49:31.729  WARN 1229 --- [http-nio-8080-exec-5] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:50:11.108  INFO 1229 --- [http-nio-8080-exec-6] c.i.b.c.AdminController                  : Optional[admin] : viewed all users.
+2021-07-29 08:50:45.897  WARN 1229 --- [http-nio-8080-exec-7] o.s.s.c.b.BCryptPasswordEncoder          : Encoded password does not look like BCrypt
+2021-07-29 08:52:14.003  INFO 1229 --- [http-nio-8080-exec-10] c.i.b.c.UserLoginController              : 12 [PARENT] milan.milic : JWTToken granted.
+2021-07-29 08:52:14.004  INFO 1229 --- [http-nio-8080-exec-10] c.i.b.c.UserLoginController              : milan.milic : logged in.
+2021-07-29 08:52:25.139  INFO 1229 --- [http-nio-8080-exec-2] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed own profile.
+2021-07-29 08:52:25.142  INFO 1229 --- [http-nio-8080-exec-2] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed children's grades.
+2021-07-29 08:53:37.477  INFO 1229 --- [http-nio-8080-exec-5] c.i.b.c.SubjectController                : Automata and Algorithms : created.
+2021-07-29 08:54:51.098  INFO 1229 --- [http-nio-8080-exec-9] c.i.b.c.UserRegistrationController       : 21 [TEACHER] m.mikalacki : created.
+2021-07-29 08:55:32.457  INFO 1229 --- [http-nio-8080-exec-10] c.i.b.c.LectureController                : Lecture #22 : created.
+2021-07-29 08:58:09.456  INFO 1229 --- [http-nio-8080-exec-8] c.i.b.c.LectureController                : Lecture #22 : student bojan.bojanic added.
+2021-07-29 08:58:40.662  INFO 1229 --- [http-nio-8080-exec-9] c.i.b.c.UserLoginController              : 21 [TEACHER] m.mikalacki : JWTToken granted.
+2021-07-29 08:58:40.662  INFO 1229 --- [http-nio-8080-exec-9] c.i.b.c.UserLoginController              : m.mikalacki : logged in.
+2021-07-29 08:58:54.095  INFO 1229 --- [http-nio-8080-exec-10] c.i.b.c.LectureController                : Lecture #22 : student bojan.bojanic graded 2
+2021-07-29 08:58:58.138  INFO 1229 --- [http-nio-8080-exec-10] c.i.b.c.LectureController                : Lecture #22 : parent notified.
+2021-07-29 08:59:21.871  INFO 1229 --- [http-nio-8080-exec-2] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed own profile.
+2021-07-29 08:59:21.873  INFO 1229 --- [http-nio-8080-exec-2] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed children's grades.
+2021-07-29 09:00:03.692  INFO 1229 --- [http-nio-8080-exec-1] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed own profile.
+2021-07-29 09:00:03.695  INFO 1229 --- [http-nio-8080-exec-1] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed children's grades.
+2021-07-29 09:00:17.964  INFO 1229 --- [http-nio-8080-exec-3] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed own profile.
+2021-07-29 09:00:17.966  INFO 1229 --- [http-nio-8080-exec-3] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed children's grades.
+2021-07-29 09:00:27.939  INFO 1229 --- [http-nio-8080-exec-4] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed own profile.
+2021-07-29 09:00:27.942  INFO 1229 --- [http-nio-8080-exec-4] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed children's grades.
+2021-07-29 09:00:30.919  INFO 1229 --- [http-nio-8080-exec-5] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed own profile.
+2021-07-29 09:00:30.921  INFO 1229 --- [http-nio-8080-exec-5] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed children's grades.
+2021-07-29 09:00:52.550  INFO 1229 --- [http-nio-8080-exec-6] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed own profile.
+2021-07-29 09:00:52.553  INFO 1229 --- [http-nio-8080-exec-6] c.i.b.c.ParentController                 : Optional[milan.milic] : viewed children's grades.
+2021-07-29 09:01:34.815  INFO 1229 --- [http-nio-8080-exec-7] c.i.b.c.UserLoginController              : 5 [STUDENT] bojan.bojanic : JWTToken granted.
+2021-07-29 09:01:34.815  INFO 1229 --- [http-nio-8080-exec-7] c.i.b.c.UserLoginController              : bojan.bojanic : logged in.
+2021-07-29 09:01:52.899  INFO 1229 --- [http-nio-8080-exec-8] c.i.b.c.StudentController                : Optional[bojan.bojanic] : viewed own profile.
+2021-07-29 09:01:52.901  INFO 1229 --- [http-nio-8080-exec-8] c.i.b.c.StudentController                : Optional[bojan.bojanic] : viewed own grades.
+2021-07-29 09:03:50.087  INFO 1229 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-29 09:03:50.116  INFO 1229 --- [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 09:03:50.118  INFO 1229 --- [RMI TCP Connection(21)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-07-29 09:03:50.123  INFO 1229 --- [RMI TCP Connection(21)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2021-07-29 09:03:52.255  INFO 1369 --- [main] c.i.b.BackendFinalApplication            : Starting BackendFinalApplication using Java 1.8.0_231 on Nikolas-MacBook-Pro.local with PID 1369 (/Users/nikolavetnic/Library/Mobile Documents/com~apple~CloudDocs/Documents/SpringWorkspace/backend_final/target/classes started by nikolavetnic in /Users/nikolavetnic/Library/Mobile Documents/com~apple~CloudDocs/Documents/SpringWorkspace/backend_final)
+2021-07-29 09:03:52.265  INFO 1369 --- [main] c.i.b.BackendFinalApplication            : No active profile set, falling back to default profiles: default
+2021-07-29 09:03:53.057  INFO 1369 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-29 09:03:53.165  INFO 1369 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 98 ms. Found 10 JPA repository interfaces.
+2021-07-29 09:03:53.546  INFO 1369 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@ce9b9a9' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-29 09:03:53.553  INFO 1369 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-29 09:03:53.869  INFO 1369 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-07-29 09:03:53.883  INFO 1369 --- [main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-07-29 09:03:53.883  INFO 1369 --- [main] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-29 09:03:53.965  INFO 1369 --- [main] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-07-29 09:03:53.965  INFO 1369 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1620 ms
+2021-07-29 09:03:54.443  INFO 1369 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2021-07-29 09:03:54.890  INFO 1369 --- [main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2021-07-29 09:03:56.182  INFO 1369 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 09:03:56.393  WARN 1369 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-29 09:03:57.155  INFO 1369 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fe3f8dae-dfa7-4d25-900d-a2e8684e47ce
+
+2021-07-29 09:03:57.512  INFO 1369 --- [main] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f3a6091, org.springframework.security.web.context.SecurityContextPersistenceFilter@27ec74a3, org.springframework.security.web.header.HeaderWriterFilter@13714753, org.springframework.web.filter.CorsFilter@5b4d9bda, org.springframework.security.web.authentication.logout.LogoutFilter@6fa7ce4, com.iktpreobuka.backend_final.config.JWTAuthorizationFilter@467a2584, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@c0004b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@55e5415d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@121dce2, org.springframework.security.web.session.SessionManagementFilter@7619fbe7, org.springframework.security.web.access.ExceptionTranslationFilter@54bc3bcf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@464d5365]
+2021-07-29 09:03:57.806  INFO 1369 --- [main] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-29 09:03:57.816  INFO 1369 --- [main] c.i.b.BackendFinalApplication            : Started BackendFinalApplication in 6.06 seconds (JVM running for 7.054)
+2021-07-29 09:03:59.710  INFO 1369 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-29 09:03:59.710  INFO 1369 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-07-29 09:03:59.712  INFO 1369 --- [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-07-29 09:04:03.009  INFO 1369 --- [http-nio-8080-exec-3] c.i.b.c.UserLoginController              : 5 [STUDENT] bojan.bojanic : JWTToken granted.
+2021-07-29 09:04:03.009  INFO 1369 --- [http-nio-8080-exec-3] c.i.b.c.UserLoginController              : bojan.bojanic : logged in.
+2021-07-29 09:04:14.909  INFO 1369 --- [http-nio-8080-exec-4] c.i.b.c.StudentController                : Optional[bojan.bojanic] : viewed own profile.
+2021-07-29 09:04:14.911  INFO 1369 --- [http-nio-8080-exec-4] c.i.b.c.StudentController                : Optional[bojan.bojanic] : viewed own grades.
+2021-07-29 09:05:06.732  INFO 1369 --- [RMI TCP Connection(5)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-07-29 09:05:06.778  INFO 1369 --- [RMI TCP Connection(5)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-29 09:05:06.780  INFO 1369 --- [RMI TCP Connection(5)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2021-07-29 09:05:06.784  INFO 1369 --- [RMI TCP Connection(5)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

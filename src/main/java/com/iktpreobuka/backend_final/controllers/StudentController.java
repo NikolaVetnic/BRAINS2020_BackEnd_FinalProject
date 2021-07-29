@@ -93,6 +93,19 @@ public class StudentController {
 	}
 	
 	
+	@RequestMapping(path = "/grades/{subjectId}", method = RequestMethod.GET) 
+	public ResponseEntity<?> getGradeCardsForSubject(@PathVariable Integer subjectId) {
+		
+		StudentEntity user = (StudentEntity) getStudent().getBody();
+		
+		logger.info(userServiceImpl.getLoggedInUsername() + " : viewed own grades.");
+		
+		return new ResponseEntity<>(user.getGradeCards().stream()
+				.filter(g -> g.getLecture().getSubject().getId() == subjectId)
+				.collect(Collectors.toList()), HttpStatus.OK);
+	}
+	
+	
 	// =-=-=-= PUT =-=-=-=
 	
 	
